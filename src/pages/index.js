@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
+import Avatar from '../components/Avatar';
 import Title from '../components/Title';
 import List from '../components/List';
 
@@ -14,6 +14,7 @@ const SUMMARY_DATA = [
 
 const IndexPage = () => (
   <main>
+    <Avatar />
     <Title>Summary</Title>
     <List data={SUMMARY_DATA} />
   </main>
