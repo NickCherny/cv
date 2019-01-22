@@ -1,21 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
-import Image from '../components/image'
-import SEO from '../components/seo'
+import Title from '../components/Title';
+import List from '../components/List';
+
+const SUMMARY_DATA = [
+  '3+ years of experience in Web-Development',
+  'Strong knowledge of Browser/Node.js',
+  'Good knowledge in web technologies HTML/CSS/JavaScript(es6/TypeScript)',
+  'Strong knowledge of build web-application',
+  'Experience in development web-interface',
+];
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <main>
+    <Title>Summary</Title>
+    <List data={SUMMARY_DATA} />
+  </main>
 )
 
 export default IndexPage
