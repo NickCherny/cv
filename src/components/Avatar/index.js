@@ -4,7 +4,14 @@ import {
   StaticQuery,
 } from 'gatsby';
 import Img from 'gatsby-image'
+import styled from 'styled-components';
 
+const AvatarMedia = styled.div`
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+`;
 
 const Avatar = () => (
   <StaticQuery
@@ -12,14 +19,18 @@ const Avatar = () => (
       query {
         placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 600) {
               ...GatsbyImageSharpFluid
             }
           }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => (
+      <AvatarMedia>
+        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+      </AvatarMedia>
+    )}
   />
 );
 
