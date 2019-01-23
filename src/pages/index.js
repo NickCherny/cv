@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Header from '../components/Header';
 import Avatar from '../components/Avatar';
 import Title from '../components/Title';
 import List from '../components/List';
@@ -14,6 +15,7 @@ const SUMMARY_DATA = [
 
 const IndexPage = () => (
   <main>
+    <Header />
     <Avatar />
     <Title>Summary</Title>
     <List data={SUMMARY_DATA} />
