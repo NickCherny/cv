@@ -32,8 +32,8 @@ const ItemTask = styled.li`
 const TaskList = ({ items }) => (
   <TaskListLayout>
     <TaskListContainer>
-      {items.map(task => (
-        <ItemTask>{task}</ItemTask>
+      {items.map((task, i) => (
+        <ItemTask key={`${task}${i}`}>{task}</ItemTask>
       ))}
     </TaskListContainer>
   </TaskListLayout>

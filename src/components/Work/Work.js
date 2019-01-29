@@ -6,14 +6,21 @@ import { get } from 'lodash';
 
 import WorkStateless from './Work.view';
 
-const getDetails = ({ children }) => {
-  const items = children
-    .find(({ tagName }) => tagName === 'ul').children
-    .filter(({ tagName }) => tagName === 'li')
-    .map(({ children }) => children[0].value.split(':'));
-  
-  return items;
-};
+const makeTagNameFilter = tag => ({ tagName }) => tagName === tag;
+const filterUl = makeTagNameFilter('ul');
+const filterLi = makeTagNameFilter('li');
+const getValue = ({ children }) => children[0].value;
+
+const parseContent = ({ children }) => {
+  const [
+    details,
+    tasks
+  ] = children.filter(filterUl);
+  return {
+    details: details.children.filter(filterLi).map(item => getValue(item).split(':')),
+    tasks: tasks.children.filter(filterLi).map(getValue)
+  };
+}
 
 const enhance = compose(
   withProps(({
@@ -24,13 +31,11 @@ const enhance = compose(
       },
       htmlAst
     },
-  }) => {
-    return {
-      title,
-      date,
-      details: getDetails(htmlAst)
-    }
-  })
+  }) => ({
+    title,
+    date,
+    ...parseContent(htmlAst)
+  }))
 );
 
 export default enhance(WorkStateless);

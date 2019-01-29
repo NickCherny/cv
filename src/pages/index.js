@@ -1,17 +1,11 @@
 import React from 'react'
-import styled from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import { graphql } from 'gatsby';
 
 import Header from '../components/Header';
 import Section from '../components/Section';
 import { Work } from '../components/Work';
-import ContainerCenter from '../components/ContainerCenter';
-import TaskList from '../components/TaskList';
-
-const WorkSectionGrid = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
+import Footer from '../components/Footer';
 
 const SUMMARY_DATA = [
   '3+ years of experience in Web-Development',
@@ -21,24 +15,32 @@ const SUMMARY_DATA = [
   'Experience in development web-interface',
 ];
 
+const GlobalStyles = createGlobalStyle`
+  body {
+    margin: 0;
+  }
+`;
+
 const IndexPage = ({ data }) => (
-  <main>
-    <Header />
-    {data.allMarkdownRemark.edges.map(({
-      node: { id, ...props }
-    }) => (
-      <Section key={id}>
-        <ContainerCenter>
+  <>
+    <GlobalStyles />
+    <main>
+      <Header />
+      {data.allMarkdownRemark.edges.map(({
+        node: { id, ...props }
+      }) => (
+        <Section key={id}>
           <Work data={props} />
-        </ContainerCenter>
-      </Section>
-    ))}
-  </main>
+        </Section>
+      ))}
+      <Footer />
+    </main>
+  </>
 );
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: fileAbsolutePath, order:DESC }) {
       edges {
         node {
           id

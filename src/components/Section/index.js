@@ -4,7 +4,7 @@ const SectionGrid = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 65vh;
   background: #FFF;
 `;
 
