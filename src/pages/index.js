@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import Section from '../components/Section';
 import { Work } from '../components/Work';
 import Footer from '../components/Footer';
+import { fontFamily } from '../constants';
 
 const SUMMARY_DATA = [
   '3+ years of experience in Web-Development',
@@ -16,6 +17,11 @@ const SUMMARY_DATA = [
 ];
 
 const GlobalStyles = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+    font-family: ${fontFamily};
+  }
+
   body {
     margin: 0;
   }
@@ -26,14 +32,8 @@ const IndexPage = ({ data }) => (
     <GlobalStyles />
     <main>
       <Header />
-      {data.allMarkdownRemark.edges.map(({
-        node: { id, ...props }
-      }) => (
-        <Section key={id}>
-          <Work data={props} />
-        </Section>
-      ))}
-      <Footer />
+      {data.allMarkdownRemark.edges.map(({ node: { id, ...props } }) => <Work key={id} data={props} />)}
+      <Footer {... { data }} />
     </main>
   </>
 );

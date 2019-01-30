@@ -7,8 +7,7 @@ import {
   colorPrimary,
 } from '../../constants';
 import TasksList from '../TaskList';
-import ContainerCenter from '../ContainerCenter';
-
+import Section from '../Section';
 
 const WorkTitle = styled.h2`
   font-family: ${fontFamily};
@@ -63,9 +62,7 @@ const WorkContainer = styled.div`
 `;
 
 const WorkLayout = styled.article`
-  background: #eee;
   width: 100%;
-  padding: 120px 16px;
 `;
 
 const WorkCenterContainer = styled.div`
@@ -74,31 +71,38 @@ const WorkCenterContainer = styled.div`
   margin: 0 auto;
 `;
 
+const WorkerSection = styled(Section)`
+  background: #eee;
+  margin-bottom: 128px;
+`;
+
 const Work = ({
   title,
   date,
   details,
   tasks
 }) => (
-  <WorkLayout>
-    <WorkCenterContainer>
-      <WorkContainer>
-        <WorkTitle>{title}</WorkTitle>
-        <WorkDateArticle>{date}</WorkDateArticle>
-        <WorkDescriptionList>
-          {details.map(([article, label]) => {
-            return (
-              <WorkDescriptionItem key={article}>
-                <b>{article}: </b>
-                <span>{label}</span>
-              </WorkDescriptionItem>
-            );
-          })}
-        </WorkDescriptionList>
-      </WorkContainer>
-      <TasksList items={tasks} />
-    </WorkCenterContainer>
-  </WorkLayout>
+  <WorkerSection>
+    <WorkLayout>
+      <WorkCenterContainer>
+        <WorkContainer>
+          <WorkTitle>{title}</WorkTitle>
+          <WorkDateArticle>{date}</WorkDateArticle>
+          <WorkDescriptionList>
+            {details.map(([article, label]) => {
+              return (
+                <WorkDescriptionItem key={article}>
+                  <b>{article}: </b>
+                  <span>{label}</span>
+                </WorkDescriptionItem>
+              );
+            })}
+          </WorkDescriptionList>
+        </WorkContainer>
+        <TasksList items={tasks} />
+      </WorkCenterContainer>
+    </WorkLayout>
+  </WorkerSection>
 );
 
 export default Work;

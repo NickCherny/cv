@@ -17,7 +17,8 @@ const HeaderContentContainer = styled.div`
 `;
 
 const HeaderTitle = styled.h1`
-  font-family: ${fontFamily};
+  word-wrap: none;
+  word-break: keep-all;
   font-style: normal;
   font-weight: bold;
   line-height: 1;
@@ -25,6 +26,7 @@ const HeaderTitle = styled.h1`
   margin: 0;
   margin-bottom: 16px;
   word-wrap: nowrap;
+  white-space: nowrap;
 `;
 
 const HeaderDescription = styled.span`
@@ -41,10 +43,11 @@ const Header = () => (
   <Section>
     <HeaderContentContainer>
       <HeaderTitle>
-        CVPageofNickCherny Developer
+        Software-Engineer
       </HeaderTitle>
       <HeaderDescription>
-        Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.
+      3+ years of experience in Web-Development,
+      Strong knowledge of Browser/Node.js, HTML/CSS/JavaScript(es6/TypeScript)
       </HeaderDescription>
     </HeaderContentContainer>
   </Section>
