@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 36,
+  "articles": [
+    {
+      "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+      },
+      "author": "Fred Imbert",
+      "title": "Dow set to drop 100 points at the open after Fed signals no rate hike this year - CNBC",
+      "description": "U.S. stock index futures were lower on Thursday morning, as investors are still digesting the Fed's latest comments.",
+      "url": "https://www.cnbc.com/2019/03/21/stock-market-equities-react-to-fed-meeting-jobless-numbers-in-focus.html",
+      "urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2019/01/09/105668115-1547036682472gettyimages-1078774362.1910x1000.jpeg",
+      "publishedAt": "2019-03-21T11:10:09Z",
+      "content": "U.S. stock index futures fell on Thursday morning as investors digested the Federal Reserve's latest announcement on monetary policy. div &gt; div.group &gt; p:first-child\"&gt; At 6:27 a.m. ET, Dow Jones Industrial Average futures indicated a decline of 81 po… [+1559 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bbc.com"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Super worm moon: Images of the last supermoon of 2019 - BBC News",
+      "description": "It is the last supermoon to occur this year.",
+      "url": "https://www.bbc.com/news/world-47652390",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/B47A/production/_106120264_053076346-1.jpg",
+      "publishedAt": "2019-03-21T11:00:25Z",
+      "content": "A super worm moon, the last supermoon of 2019, has been observed around the world. Image copyright AFP It was given the name super worm moon as it coincides with the spring equinox, when the length of day and night are almost the same. Worms are said to emerg… [+874 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Youtube.com"
+      },
+      "author": null,
+      "title": "2019 iPad Mini Hands On: A long-awaited update - Engadget",
+      "description": null,
+      "url": "https://www.youtube.com/watch?v=h7W0Qdt99aM",
+      "urlToImage": null,
+      "publishedAt": "2019-03-21T11:00:06Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Aol.com"
+      },
+      "author": "Alexander Kay",
+      "title": "'Empire' creator reveals cast has felt 'pain, anger, sadness and frustration' since Smollett scandal - AOL",
+      "description": "Lee Daniels tells how the star’s arrest and continued legal battle has caused turmoil behind the scenes of the TV show.",
+      "url": "https://www.aol.com/article/entertainment/2019/03/21/empire-creator-reveals-cast-has-felt-pain-anger-sadness-and-frustration-over-jussie-smollett-scandal/23697576/",
+      "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/crop/1028x674+714+192/resize/1028x675!/format/jpg/quality/85/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2019-03%2Fe84acc00-4bc4-11e9-aedc-fc8d33fd2260",
+      "publishedAt": "2019-03-21T10:37:39Z",
+      "content": "Daniels took to Instagram Wednesday afternoon to share a video in which he admits, \"These past couple of weeks have been a freakin' roller coaster.\" \"Me and my cast have experienced pain, anger, sadness and frustration,\" Daniels continued. \"And [we] really do… [+6036 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": null,
+      "title": "Markets are reeling after a 'bizarre' Fed surprise - Business Insider",
+      "description": null,
+      "url": "https://www.businessinsider.com/markets-are-reeling-after-a-bizarre-fed-surprise-2019-3",
+      "urlToImage": null,
+      "publishedAt": "2019-03-21T09:40:20Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+      },
+      "author": "Holly Ellyatt",
+      "title": "EU leaders to decide whether to give UK more time for Brexit - CNBC",
+      "description": "European leaders are meeting on Thursday to decide whether to grant the U.K. an extension to its Brexit departure due on March 29.",
+      "url": "https://www.cnbc.com/2019/03/21/eu-leaders-to-decide-whether-to-give-uk-more-time-for-brexit.html",
+      "urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/12/15/104901004-GettyImages-893561138.1910x1000.jpg",
+      "publishedAt": "2019-03-21T09:38:38Z",
+      "content": "Ahead of her visit to Brussels, May made a speech on Wednesday in which she blamed British lawmakers for frustrating the Brexit process. Addressing the British public she said she recognized weariness with ongoing Brexit uncertainty and infighting and added, … [+1831 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Lukas Mikelionis",
+      "title": "Hundreds of illegal immigrants released into US amid overcrowding at detention facilities - Fox News",
+      "description": "The U.S. has started releasing hundreds of illegal immigrant detainees into the country as immigration authorities struggle to find available places to house the thousands of illegal migrants coming through the U.S.-Mexico border.",
+      "url": "https://www.foxnews.com/us/hundreds-of-illegal-immigrants-released-into-us-amid-overcrowding-at-detention-facilities",
+      "urlToImage": "https://media2.foxnews.com/BrightCove/694940094001/2019/03/19/694940094001_6015696615001_6015704231001-vs.jpg",
+      "publishedAt": "2019-03-21T09:21:21Z",
+      "content": "The U.S. has started releasing hundreds of illegal immigrant detainees into the country as immigration authorities struggle to find available places to house the thousands of illegal migrants coming through the U.S.-Mexico border. Most of the released migrant… [+2007 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jon Porter",
+      "title": "Bill & Ted are embarking on a third excellent adventure next year - The Verge",
+      "description": "Bill & Ted 3: Face the Music, the long-awaited sequel to 1991’s Bill & Ted’s Bogus Journey, is entering production this summer and is due to be released in August next year. Details about the third entry in the comedy time-travelling series were announced on …",
+      "url": "https://www.theverge.com/2019/3/21/18275445/bill-and-ted-3-face-the-music-release-date-news-keanu-reeves-alex-winter",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/tM7yM3wbhs1pWbZY3B2AKusU7P8=/0x54:1777x984/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15976760/MV5BNTE0YzAzOWYtMDI3NC00ZDY2LThhZTEtMWUwOWRjOGU5NWEyXkEyXkFqcGdeQXVyODEwMTc2ODQ_._V1_SX1777_CR0_0_1777_999_AL_.jpg",
+      "publishedAt": "2019-03-21T08:47:00Z",
+      "content": "Bill &amp; Ted 3: Face the Music, the long-awaited sequel to 1991s Bill &amp; Teds Bogus Journey, is entering production this summer and is due to be released in August next year. Details about the third entry in the comedy time-travelling series were announc… [+830 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Tom Warren",
+      "title": "Microsoft is bringing its Defender antivirus software to the Mac - The Verge",
+      "description": "Microsoft is now providing antivirus protection for macOS. It’s part of Microsoft Defender ATP, which has been renamed from Windows Defender ATP to reflect the new cross-platform approach. A public preview is available for businesses today",
+      "url": "https://www.theverge.com/2019/3/21/18275443/microsoft-defender-atp-mac-support",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/E9xh0HtiKaYQk6-0gwNWg2_e-u4=/0x30:1587x861/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15976757/psU6ht5.png",
+      "publishedAt": "2019-03-21T08:28:20Z",
+      "content": "Microsoft is bringing its Windows Defender antivirus software to macOS today. The software giant is renaming Windows Defender Advanced Threat Protection (ATP) to Microsoft Defender Advanced Threat Protection (ATP) as a result. Microsoft has created a dedicate… [+809 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Khou.com"
+      },
+      "author": null,
+      "title": "Shelter-in-place in effect for portions of Deer Park | Schools cancelling classes Thursday - KHOU.com",
+      "description": "School has been canceled for Pasadena ISD, La Porte ISD and Deer Park ISD due to an expanded shelter-in-place southwest of ITC.",
+      "url": "https://www.khou.com/article/news/local/breaking-itc-deer-park-issues-shelter-in-place-for-personnel-odor-may-be-noticeable-in-community/285-fba362ea-d085-4313-a77b-93022865ab13",
+      "urlToImage": "https://www.khou.com/img/resize/media.khou.com/assets/KHOU/images/d194fb83-3647-4276-8503-ece853bc8fe5/d194fb83-3647-4276-8503-ece853bc8fe5.jpg?mode=pad&bgcolor=000000&scale=both&width=1140&height=641",
+      "publishedAt": "2019-03-21T08:11:00Z",
+      "content": "BREAKING UPDATE AT 6:25 AM THURS: According to the Deer Park Police Department, the entire city of Deer Park. There is a strange smell in the air south of Pasadena Blvd. BREAKING UPDATE AT 5:15 AM THURS: \"As a result of tank fire incident we are experiencing … [+2866 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tmz.com"
+      },
+      "author": "TMZ Staff",
+      "title": "Kylie Jenner's Over It with Jordyn Woods, Ready to Move On from Friendship - TMZ",
+      "description": "Kylie Jenner and Jordyn Woods still aren't talking, and at this point Kylie's given up on making up.",
+      "url": "https://www.tmz.com/2019/03/21/kylie-jenner-jordyn-woods-friendship-over-moving-on-cheating-scandal/",
+      "urlToImage": "https://images.tmz.com/2019/03/20/0320-kylie-jenner-jordyn-woods-tmz-getty-1200x630.jpg",
+      "publishedAt": "2019-03-21T08:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnbc",
+        "name": "CNBC"
+      },
+      "author": "Yen Nee Lee",
+      "title": "Trump can't have a strong US economy and low interest rates at the same time, says ex-Fed governor - CNBC",
+      "description": "U.S. President Donald Trump has on several occasions hit out at the Federal Reserve for raising interest rates, claiming that such an action was harmful to the U.S. economy.",
+      "url": "https://www.cnbc.com/2019/03/21/trump-cant-have-strong-us-economy-low-interest-rates-robert-heller.html",
+      "urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2019/03/20/105803035-1553039675594gettyimages-863079924.1910x1000.jpeg",
+      "publishedAt": "2019-03-21T06:52:32Z",
+      "content": "U.S. President Donald Trump will likely welcome the Federal Reserve's projection of zero interest rate hikes this year but he should be wary that his hopes for a strong American economy may not materialize, according to a former Fed governor. div &gt; div.gro… [+1278 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Abc15.com"
+      },
+      "author": "https://www.abc15.com/about-us/staff/zach-crenshaw",
+      "title": "Signs missed? Mom with kids on YouTube accused of abuse - ABC15 Arizona",
+      "description": "The kids, ranging in age from three to 15, told officers they were starved, pepper sprayed and locked in a closet for days.",
+      "url": "https://www.abc15.com/news/region-central-southern-az/maricopa/warning-signs-missed-mom-with-kids-on-youtube-channel-suspected-of-child-abuse",
+      "urlToImage": "https://ewscripps.brightspotcdn.com/dims4/default/7a8fc7d/2147483647/strip/true/crop/899x472+0+102/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F1f%2F9a%2Fd5b197ac4deaa94fb5ecbad63b0a%2Fhackney.jpg",
+      "publishedAt": "2019-03-21T06:45:00Z",
+      "content": "MARICOPA, AZ Police are accusing a Maricopa mother of torturing her seven adopted children. The kids, ranging in age from three to 15, told officers they were starved, pepper sprayed and locked in a closet for days. Authorities said all seven kids are now bac… [+2210 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Seekingalpha.com"
+      },
+      "author": "Chris Ciovacco",
+      "title": "S&P 500 Setup Has Only Occurred One Other Time In Last 70 Years - Seeking Alpha",
+      "description": "Extremely rare combination setup for the stock market. Monitoring the status of the S&P 500's breakout. A pause from hybrid/defensive assets.",
+      "url": "https://seekingalpha.com/article/4250137-s-and-p-500-setup-occurred-one-time-last-70-years",
+      "urlToImage": "https://static2.seekingalpha.com/uploads/2019/3/21/29899-15531416593819487.png",
+      "publishedAt": "2019-03-21T06:17:00Z",
+      "content": "Market Was A Bit Extended Short-Term Mondays session saw the first close above the S&amp;P 500s upper Bollinger Band (purple arrow) since the current rally began in late December 2018. In early February, the market approached the upper band and then took a ve… [+3216 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Analysis by Stephen Collinson, CNN",
+      "title": "Trump claims he wants Mueller findings public. Hmm. - CNN",
+      "description": "Donald Trump, the President who refused to release his tax returns, just made an unexpected gesture towards transparency, saying he'd be happy for Americans to see Robert Mueller's final report.",
+      "url": "https://www.cnn.com/2019/03/21/politics/donald-trump-robert-mueller-report-public/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190320190807-trump-0313-super-tease.jpg",
+      "publishedAt": "2019-03-21T06:12:00Z",
+      "content": "(CNN) Donald Trump, the President who refused to release his tax returns, just made an unexpected gesture towards transparency, saying he'd be happy for Americans to see Robert Mueller's final report. His comment is probably worth taking with a large pinch of… [+8145 chars]"
+    },
+    {
+      "source": {
+        "id": "bleacher-report",
+        "name": "Bleacher Report"
+      },
+      "author": "Sean Highkin",
+      "title": "NCAA Tournament 2019: Winners and Losers of Wednesday's First Four Games - Bleacher Report",
+      "description": "With the conclusion of Wednesday night's First Four games, the full field of 64 teams is set for the 2019 NCAA men's basketball tournament...",
+      "url": "https://bleacherreport.com/articles/2826910-ncaa-tournament-2019-winners-and-losers-of-wednesdays-first-four-games",
+      "urlToImage": "https://img.bleacherreport.net/img/slides/photos/004/340/915/hi-res-10ca5d7b42a04bf79ca4ceef1c92edfb_crop_exact.jpg?w=1200&h=1200&q=75",
+      "publishedAt": "2019-03-21T06:02:15Z",
+      "content": "John Minchillo/Associated Press In the 1990s, St. John's was a relatively consistent presence in the NCAA men's tournament, advancing to the Elite Eight in 1991 and 1999 and making three more appearances in between. Since then, successes have been few and far… [+451 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": null,
+      "title": "New Zealand prime minister announces ban on 'military-style semi-automatic weapons' after mosque attack - Fox News",
+      "description": "New Zealand Prime Minister Jacinda Ardern on Thursday announced the country was immediately banning \"military-style semi-automatic weapons\" after last week's attack that killed 50 people at two mosques.",
+      "url": "https://www.foxnews.com/world/new-zealand-prime-minister-announces-ban-on-military-style-semi-automatic-weapons-after-mosque-attack",
+      "urlToImage": "https://static.foxnews.com/static/orion/styles/img/fox-news/og/og-fox-news.png",
+      "publishedAt": "2019-03-21T05:21:53Z",
+      "content": "New Zealand Prime Minister Jacinda Ardern on Thursday announced the country was immediately banning \"military-style semi-automatic weapons\" after last week's attack that killed 50 people at two mosques. Speaking to reporters, the prime minister said the weapo… [+3249 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Npr.org"
+      },
+      "author": null,
+      "title": "Steep Rise In Fentanyl-Linked Deaths Marks Opioid Epidemic's Third Wave : Shots - Health News - NPR",
+      "description": "Overdose deaths involving fentanyl are rising — up 113 percent on average each year from 2013 to 2016. Dealers are adding cheap fentanyl to the illicit drug supply, and some users get it accidentally.",
+      "url": "https://www.npr.org/sections/health-shots/2019/03/21/704557684/fentanyl-linked-deaths-the-u-s-opioid-epidemics-third-wave-begins",
+      "urlToImage": "https://media.npr.org/assets/img/2019/03/20/gettyimages-1126780909_wide-42a7e67bb2525c0985f19245b60d64512ea9efcb.jpg?s=1400",
+      "publishedAt": "2019-03-21T04:02:00Z",
+      "content": "Authorities intercepted a woman using this drug kit in preparation for shooting up a mix of heroin and fentanyl inside a Walmart bathroom last month in Manchester, N.H. Fentanyl offers a particularly potent high but also can shut down breathing in under a min… [+7761 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Louis Casiano",
+      "title": "Kentucky governor says he intentionally exposed his 9 kids to chickenpox - Fox News",
+      "description": "Kentucky Gov. Matt Bevin said Tuesday that he deliberately exposed his nine children to chickenpox in lieu of vaccinating them, actions that follow reports of an outbreak of the contagious disease at a Roman Catholic school in a northern part of the state.",
+      "url": "https://www.foxnews.com/politics/kentucky-governor-said-he-intentional-exposed-his-nine-kids-to-chickenpox",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/03/AP19079721491250.jpg",
+      "publishedAt": "2019-03-21T03:19:01Z",
+      "content": "Kentucky Gov. Matt Bevin said Tuesday that he deliberately exposed his nine children to chickenpox in lieu of vaccinating them, actions that follow reports of an outbreak of the contagious disease at a Roman Catholic school in a northern part of the state. “E… [+3097 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Malaymail.com"
+      },
+      "author": "Malay Mail",
+      "title": "Study links drinking hot tea with elevated oesophageal cancer risk - Malay Mail",
+      "description": "TEHRAN, March 21 — According to a new study, regularly drinking very hot tea could increase the risk of oesophageal cancer. The research hails from the Tehran University of Medical Sciences in Iran and is published in The International Journal of Cancer. Scie…",
+      "url": "https://www.malaymail.com/news/life/2019/03/21/study-links-drinking-hot-tea-with-elevated-oesophageal-cancer-risk/1734850",
+      "urlToImage": "https://media.malaymail.com/resize_cache/uploads/articles/2019/2019-03/cup_of_tea_teabag_210319-seo.jpg",
+      "publishedAt": "2019-03-21T03:00:33Z",
+      "content": "The study links drinking hot tea with an elevated risk of oesophageal cancer. AFP pic TEHRAN, March 21 According to a new study, regularly drinking very hot tea could increase the risk of oesophageal cancer. The research hails from the Tehran University of Me… [+1153 chars]"
+    }
+  ]
+}
